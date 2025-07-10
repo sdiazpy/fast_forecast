@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast_forecast"
+version = "0.1.0"
+description = "Modelos rápidos de pronóstico lineal con tendencia, estacionalidad, LOWESS y variables exógenas."
+authors = [{name="Sergio Pedro Diaz Paredes", email="sdiazp@labdatosperu.org"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "statsmodels"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sdiazpy/fast_forecast"
